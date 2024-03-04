@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Associar Produtos aos Clientes</title>
+</head>
+<body>
+    <h1>Associar Produtos aos Clientes</h1>
+    <form action="/associar.html" method="POST">
+        <label for="cliente">Selecione um cliente:</label>
+        <select name="cliente" id="cliente">
+            <option value="cliente1">Cliente 1</option>
+            <option value="cliente2">Cliente 2</option>
+       
+        </select><br><br>
+        <label for="produtos">Selecione os produtos:</label><br>
+        <input type="checkbox" id="produto1" name="produtos" value="produto1">
+        <label for="produto1">Produto 1</label><br>
+        <input type="checkbox" id="produto2" name="produtos" value="produto2">
+        <label for="produto2">Produto 2</label><br>
+        
+        <br><br>
+        <input type="submit" value="Associar">
+    </form>
+</body>
+</html>
